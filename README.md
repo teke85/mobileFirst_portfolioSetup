@@ -17,7 +17,7 @@
 
 - the header section
 
-- the heading section
+- the headline section
 
 ## Screenshot
 
