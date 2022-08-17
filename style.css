@@ -266,6 +266,10 @@ li {
   margin-top: 10px;
 }
 
+.btn-container li {
+  list-style: none;
+}
+
 .btn-xxl {
   width: 124px;
   text-align: center;
@@ -317,7 +321,7 @@ li {
   font-size: 40px;
   color: var(--h2-color);
   line-height: 52px;
-  margin: 0 24px 12px 12px;
+  margin: 0 24px 12px 20px;
   padding-top: 114px;
 }
 
