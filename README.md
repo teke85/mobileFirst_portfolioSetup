@@ -2,7 +2,7 @@
 
 ## My Portfolio Project
 
-> **Milestone #2 Portfolio Project!**
+> **Milestone #1 Portfolio Project!**
 
 ## Built With
 
