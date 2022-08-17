@@ -22,6 +22,7 @@
 ## Screenshot
 
 Below is a screenshot of the complete project.
+
 ![screencapture-127-0-0-1-5500-index-html-2022-08-17-20_27_27 (1)](https://user-images.githubusercontent.com/29442846/185215634-a1e9a415-9c62-43d2-a5b2-a4faf7bb24ee.png)
 
 ## Prerequisites
