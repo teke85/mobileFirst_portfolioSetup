@@ -15,9 +15,9 @@
 
 ## Project Description
 
-- the Works section
+- the header section
 
-- the About myself section
+- the heading section
 
 ## Screenshot
 
