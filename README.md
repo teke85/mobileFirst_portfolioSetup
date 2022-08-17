@@ -23,7 +23,7 @@
 
 Below is a screenshot of the complete project.
 
-![screencapture-127-0-0-1-5500-index-html-2022-08-17-20_27_27 (1)](https://user-images.githubusercontent.com/29442846/185215634-a1e9a415-9c62-43d2-a5b2-a4faf7bb24ee.png)
+![screencapture-127-0-0-1-5501-2022-07-05-21_05_48](https://user-images.githubusercontent.com/29442846/177398144-175679c8-d411-408b-8188-141049ecca12.png)
 
 ## Prerequisites
 
