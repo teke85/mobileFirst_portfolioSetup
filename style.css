@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --logo-color: #6070ff;
+  --menu-icon-color: #6070ff;
+  --h1-color: #172b4d;
+  --span-color: #7f8cff;
+  --paragraph-color: #344563;
+  --font-family: "Poppins", sans-serif;
+  --li-color: ##c1c7d0;
+  --h3-color: #172b4d;
+  --h2-color: #172b4d;
+  --btn-bg-color: #ebebff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+/* Header Section */
+header {
+  background-color: #fff;
+  max-width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--logo-color);
+}
+
+/* text logo */
+
+.logo {
+  color: var(--logo-color);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logo-container {
+  padding: 58px 0 0 24px;
+}
+
+/* Menu Icon */
+
+.menu {
+  padding: 58px 24px 0 0;
+}
+
+.ion-icon {
+  padding: 8px;
+  margin: 0 24px;
+  font-size: 64px;
+  color: var(--menu-icon-color);
+}
+
+/* Hero section starts here */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("images/background/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 25% 100px;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("images/Desktop/desktop-background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  /* Menu Icon */
+
+  .menu {
+    padding: 58px 24px 0 0;
+  }
+
+  .ion-icon {
+    padding: 1px;
+    margin: 0 24px;
+    font-size: 64px;
+    color: green;
+  }
+}
+
+h2 {
+  color: var(--h1-color);
+  font-size: 36px;
+  padding: 0 24px 12px 24px;
+}
+
+.paragraph {
+  padding: 20px;
+  color: var(--paragraph-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: var(--font-family);
+}
+
+.media_icons {
+  margin: 26px 35px 26px 21px;
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.connect {
+  padding-left: 20px;
+  color: var(--span-color);
+}
+
+.media-icons:hover,
+.menu:hover,
+.logo:hover {
+  cursor: pointer;
+}
+
+/* hero section ends */
