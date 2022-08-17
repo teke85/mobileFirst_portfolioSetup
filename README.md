@@ -2,22 +2,22 @@
 
 ## My Portfolio Project
 
-> **Milestone #1 Portfolio Project!**
+> **Milestone #2 Portfolio Project!**
 
 ## Built With
 
 - Languages Used: Html, CSS
 - Code Editor: Visual Studio Code
-- Concepts Used: Flexbox
+- Concepts Used: Flexbox, Grid System
 - Tools Used: Linters
 - VCS: Git
 - Package Manager: Node, NPM
 
 ## Project Description
 
-- the header section
+- the Works Section
 
-- the headline section
+- the About Myself Section
 
 ## Screenshot
 
