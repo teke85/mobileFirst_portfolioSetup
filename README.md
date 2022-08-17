@@ -31,7 +31,6 @@ To get a local copy up and running follow these simple example steps.
 
 - You need to have a Code Editor Installed.
 - Make sure Nodejs and NPM are installed in your system to setup linters
-- Setup
 
 ## Setup
 
