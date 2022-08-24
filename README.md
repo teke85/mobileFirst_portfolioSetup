@@ -48,9 +48,7 @@ To get a local copy up and running follow these simple example steps.
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
   - Commit the Linters changes to your github repo
-  - Add 2 files:
-    - A .html file that includes a header and a headline section(Right after the header)
-    - A .css file that includes markup for styling your webpage similar to the figma design you chose.
+  - Add contact section.
   - Make sure that all the relevant files are ignored by git and are not present in your GitHub repository.
   - Commit all changes.
 - Open a pull request.
