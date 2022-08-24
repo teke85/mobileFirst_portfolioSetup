@@ -219,7 +219,6 @@ li {
 }
 
 .btn-container-flex {
-  /* display: flex; */
   margin-top: 5px;
 }
 
@@ -238,6 +237,7 @@ li {
   padding: 4px 12px 4px 12px;
   transition: 0.2s;
   float: left;
+  margin-right: 10px;
 }
 
 .btn-md {
@@ -251,6 +251,7 @@ li {
   padding: 4px 12px;
   transition: 0.2s;
   float: left;
+  margin-right: 10px;
 }
 
 .btn-lg {
