@@ -58,6 +58,9 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author**
 
 - GitHub: [@teke85](https://github.com/teke85)
+
+👤 **Author**
+
 - GitHub: [@Lorna](https://github.com/Lornakaboro)
 
 ## 🤝 Contributing
