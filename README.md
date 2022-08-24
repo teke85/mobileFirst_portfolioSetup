@@ -55,11 +55,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 **Author 1** 
 
 - GitHub: [@teke85](https://github.com/teke85)
 
-👤 **Author**
+👤 **Author 2** 
 
 - GitHub: [@Lorna](https://github.com/Lornakaboro)
 
