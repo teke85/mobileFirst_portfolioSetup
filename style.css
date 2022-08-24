@@ -459,6 +459,7 @@ hr {
   font-family: var(--font-family);
   font-size: 15px;
   line-height: 24px;
+  width: 327px;
 }
 
 .contact-me {
