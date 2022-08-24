@@ -58,10 +58,14 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author 1** 
 
 - GitHub: [@teke85](https://github.com/teke85)
+- Twitter: [@muttau](https://twitter.com/muttau)
+- LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
 
 👤 **Author 2** 
 
-- GitHub: [@Lorna](https://github.com/Lornakaboro)
+- GitHub: [@lorna](https://github.com/Lornakaboro)
+- LinkedIn: [lorna Kaboro](https://www.linkedin.com/in/lorna-kaboro-23620b242/)
+- Twitter: [lorna Kaboro](https://twitter.com/KaboroLorna)
 
 ## 🤝 Contributing
 
