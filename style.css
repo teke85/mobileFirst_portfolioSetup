@@ -436,6 +436,7 @@ hr {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 25% 100px;
+  margin: 0 auto;
 }
 
 .field {
@@ -472,7 +473,7 @@ hr {
 .contact-paragraph {
   color: #fff;
   width: 327px;
-  margin: 0 24px 50px 24px;
+  margin: 0 auto 50px auto;
   font-size: 20px;
   text-align: center;
 }
