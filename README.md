@@ -12,7 +12,8 @@ Desktop Version of Portfolio Project
 
 # Screen Shot of Complete Project
 
-![screencapture-127-0-0-1-5503-2022-07-16-10_21_19](https://user-images.githubusercontent.com/29442846/179347500-57a56c20-1591-4d33-b439-53dbd330950f.png)
+![Portfolio](https://user-images.githubusercontent.com/29442846/186938998-01e592a7-deb9-4f32-b390-d5473d2b8b82.jpg)
+
 
 ## Built With
 
