@@ -191,7 +191,7 @@ h2 {
 
 .about-myself-title {
   color: #172b4d;
-  margin: 114px 24px 12px 0px;
+  margin: 114px 24px 12px 0;
   font-size: 40px;
 }
 
@@ -695,7 +695,6 @@ h2 {
   }
 
   /* Languages section */
-
   .tech-content > ul > li {
     list-style: none;
     background-color: #f7f7f9;
