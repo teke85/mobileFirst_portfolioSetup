@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 :root {
   --logo-color: #6070ff;
@@ -7,7 +7,7 @@
   --h1-color: #172b4d;
   --span-color: #7f8cff;
   --paragraph-color: #344563;
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
   --li-color: ##c1c7d0;
   --h3-color: #172b4d;
   --h2-color: #172b4d;
@@ -47,7 +47,7 @@ header {
 .logo {
   color: var(--logo-color);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 20px;
   font-weight: 700;
   font-size: 18px;
@@ -141,8 +141,6 @@ h2 {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   gap: 30px;
-
-  /* margin: 0 10%; */
   min-height: 370px;
   align-items: center;
   flex-wrap: wrap;
@@ -155,8 +153,6 @@ h2 {
 
 .image-container > img {
   width: 100%;
-
-  /* padding-right: 20px; */
 }
 
 .p-title {
@@ -404,7 +400,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('images/background/2.png');
+  background-image: url("images/background/2.png");
   background-position: top 20px right;
   background-repeat: no-repeat;
   background-color: var(--bg-color-contact);
@@ -432,7 +428,6 @@ h2 {
 }
 
 .field {
-  /* border-radius: 8px; */
   margin: 0 24px 20px 24px;
   outline: none;
   padding: 16px;
@@ -444,8 +439,6 @@ h2 {
 
 .text-area {
   margin: 0 24px 0 24px;
-
-  /* border-radius: 8px; */
   padding: 5px 0 0 10px;
   font-weight: 400;
   font-family: var(--font-family);
@@ -497,6 +490,12 @@ h2 {
   padding-right: 10px;
 }
 
+.about-media-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-color: #f7f7f9;
@@ -523,7 +522,7 @@ h2 {
   .logo {
     color: var(--logo-color);
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 20px;
     font-weight: 700;
     font-size: 18px;
@@ -596,14 +595,6 @@ h2 {
   .image-container {
     width: 50%;
     margin: 30px 0 30px 30px;
-  }
-
-  .image-fluid {
-    transition: transform 0.6s;
-  }
-
-  .image-fluid:hover {
-    transform: scale(1.1);
   }
 
   .p-title {
