@@ -695,22 +695,4 @@ h2 {
     background-color: #f7f7f9;
   }
 
-  /* .canopy:nth-child(2),
-  .title:nth-child(1),
-  .role:nth-child(4),
-  .role:nth-child(13) {
-    display: none;
-  }
-
-  .view-on-mobile {
-    display: none;
-  }
-
-  /* .view-on-desktop {
-    display: none;
-  } */
-
-  /* .text_paragraph:nth-child(4) {
-    display: none;
-  } */
 }
