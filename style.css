@@ -27,7 +27,7 @@ html {
 
 body {
   font-family: var(--font-family);
-  background-color: #fff;
+  background-color: #f7f7f9;
 }
 
 /* Header Section */
@@ -190,7 +190,9 @@ h2 {
 }
 
 .about-myself-title {
-  color: #091e42;
+  color: #172b4d;
+  margin: 114px 24px 12px 0px;
+  font-size: 40px;
 }
 
 .canopy {
@@ -344,10 +346,20 @@ h2 {
   font-size: 20px;
   font-weight: 500;
   margin: 10px 0;
+  color: #344563;
+}
+
+.tech-images p {
+  color: #253858;
 }
 
 .tech-title img {
   margin-right: 18px;
+}
+
+.tech-name {
+  display: flex;
+  flex-direction: column;
 }
 
 .separator {
@@ -357,10 +369,6 @@ h2 {
   display: block;
 }
 
-.tech-content > ul {
-  padding: 0 8px;
-}
-
 .tech-content > ul > li {
   background-color: #f7f7f9;
   border-radius: 8px;
@@ -368,6 +376,7 @@ h2 {
   margin: 12px 20px;
   column-gap: 16px;
   list-style: none;
+  max-width: 303px;
 }
 
 .tech-content > ul > li > img {
@@ -475,6 +484,8 @@ h2 {
 
 .about-section {
   padding: 15px 15px 15px 15px;
+  border-radius: 0 8rem 0 0;
+  background-color: #fff;
 }
 
 .hero-subheading {
@@ -486,6 +497,9 @@ h2 {
 
 .about-subheading {
   color: #7f8cff;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .social-media-icons {
@@ -695,5 +709,14 @@ h2 {
     height: 120px;
     width: 120px;
     background-color: #f7f7f9;
+  }
+
+  .tech-list-container {
+    margin: 114px 24px 12px 12px;
+  }
+
+  .tech-name {
+    display: flex;
+    flex-direction: row;
   }
 }
