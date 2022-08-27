@@ -251,17 +251,6 @@ h2 {
   transition: 0.2s;
 }
 
-.btn-xl {
-  background-color: #ebebff;
-  width: 90px;
-  text-align: center;
-  height: 25px;
-  border-radius: 5px;
-  border: none;
-  color: #396df2;
-  transition: 0.2s;
-}
-
 .btn-lg {
   background-color: #ebebff;
   width: 70px;
@@ -514,6 +503,17 @@ h2 {
   gap: 10px;
 }
 
+/* .facebook,
+.uber,
+.text-paragraph-desktop,
+.btn-xl-desktop,
+.title-desktop,
+.role-desktop,
+.year-desktop */
+.hide-on-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-color: #f7f7f9;
@@ -719,5 +719,53 @@ h2 {
   .tech-name {
     display: flex;
     flex-direction: row;
+  }
+
+  .title-desktop {
+    color: var(--h3-color);
+    font-size: 32px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .btn-xl-desktop,
+  .title-desktop,
+  .facebook,
+  .paragraph-desktop,
+  .role-desktop,
+  .year-desktop,
+  .uber {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .btn-xl-desktop {
+    background-color: #ebebff;
+    width: 90px;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: #396df2;
+    transition: 0.2s;
+  }
+
+  .btn-xl-desktop:hover {
+    cursor: pointer;
+    background-color: #6070ff;
+    box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
+    transform: translateY(4px);
+    color: #fff;
+  }
+
+  .btn-xl-desktop:active {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #7f8cff;
+    color: #6070ff;
   }
 }
