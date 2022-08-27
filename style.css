@@ -732,6 +732,10 @@ h2 {
     display: block;
   }
 
+  .paragraph-desktop {
+    color: #344563;
+  }
+
   .facebook,
   .uber {
     color: #344563;
