@@ -739,6 +739,12 @@ h2 {
     display: block;
   }
 
+  .role-desktop,
+  .year-desktop {
+    display: list-item;
+    margin-right: 30px;
+  }
+
   .hide {
     display: none;
   }
@@ -767,5 +773,12 @@ h2 {
     background-color: #fff;
     border: 1px solid #7f8cff;
     color: #6070ff;
+  }
+
+  .canopy,
+  .uber,
+  .facebook {
+    font-weight: 500;
+    color: #344563;
   }
 }
