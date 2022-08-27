@@ -1,20 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Project Name
+# Project Name
 
-> **Milestone #3 Contact Form!**
+Desktop Version of Portfolio Project
 
 # Project Requirements
 
-- In this project, you will be required to add a Contact Form to the Mobile Version of the Portfolio Project.
+- To build a Desktop Version of the Portfolio similar to the one provided in the figma design.
+- To use media queries in the CSS file to make the desktop version.
+- To use Grid and Flexbox to layout elements on the page.
 
-- Build a web page similar to the one in this figma file [here](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+# Screen Shot of Complete Project
 
-## Screenshot
+![Portfolio](https://user-images.githubusercontent.com/29442846/186938998-01e592a7-deb9-4f32-b390-d5473d2b8b82.jpg)
 
-Below is a screenshot of the complete project.
-
-![Portfolio Screenshot](https://user-images.githubusercontent.com/29442846/186222285-193297b5-0f5b-4155-bafb-75eea1fa994c.png)
 
 ## Built With
 
@@ -55,13 +54,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author 1** 
+👤 **Author 1**
 
 - GitHub: [@teke85](https://github.com/teke85)
 - Twitter: [@muttau](https://twitter.com/muttau)
 - LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
 
-👤 **Author 2** 
+👤 **Author 2**
 
 - GitHub: [@lorna](https://github.com/Lornakaboro)
 - LinkedIn: [lorna Kaboro](https://www.linkedin.com/in/lorna-kaboro-23620b242/)
