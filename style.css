@@ -87,11 +87,11 @@ header {
   transition: transform 0.6s;
 }
 
-.image-fluid: hover {
-  transform-scale (1.1);
+.image-fluid:hover {
+  transform: scale (1.1);
 }
 
-.@media (min-width: 768px) {
+@media (min-width: 768px) {
   .hero {
     background-image: url('images/Desktop/desktop-background.png');
     background-position: top;
