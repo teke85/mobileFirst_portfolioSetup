@@ -503,13 +503,6 @@ h2 {
   gap: 10px;
 }
 
-/* .facebook,
-.uber,
-.text-paragraph-desktop,
-.btn-xl-desktop,
-.title-desktop,
-.role-desktop,
-.year-desktop */
 .hide-on-mobile {
   display: none;
 }
@@ -739,10 +732,15 @@ h2 {
     display: block;
   }
 
+  .facebook,
+  .uber {
+    color: #344563;
+  }
+
   .role-desktop,
   .year-desktop {
     display: list-item;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .hide {
@@ -773,12 +771,5 @@ h2 {
     background-color: #fff;
     border: 1px solid #7f8cff;
     color: #6070ff;
-  }
-
-  .canopy,
-  .uber,
-  .facebook {
-    font-weight: 500;
-    color: #344563;
   }
 }
