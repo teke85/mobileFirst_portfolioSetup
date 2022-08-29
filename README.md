@@ -2,7 +2,7 @@
 
 # Project Name
 
-Desktop Version of Portfolio Project
+Portfolio Project (Mobile & Desktop Version)
 
 # Project Requirements
 
