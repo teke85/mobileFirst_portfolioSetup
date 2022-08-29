@@ -2,7 +2,7 @@
 
 # Project Name
 
-Desktop Version of Portfolio Project
+Portfolio Project (Mobile & Desktop Version)
 
 # Project Requirements
 
@@ -10,9 +10,9 @@ Desktop Version of Portfolio Project
 - To use media queries in the CSS file to make the desktop version.
 - To use Grid and Flexbox to layout elements on the page.
 
-# Screen Shot of Complete Project
+## Live Demo (if available)
 
-![Portfolio](https://user-images.githubusercontent.com/29442846/186938998-01e592a7-deb9-4f32-b390-d5473d2b8b82.jpg)
+[Live Demo Link](https://teke85.github.io/mobileFirst_portfolioSetup/)
 
 
 ## Built With
