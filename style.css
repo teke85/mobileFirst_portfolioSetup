@@ -633,7 +633,7 @@ h2 {
     display: grid;
     gap: 25px;
     grid-template-columns: 40% 1fr;
-    padding: 7.125rem 1.5rem;
+    padding: 6%;
     background-color: white;
     border-radius: 0 8rem 0 0;
   }
