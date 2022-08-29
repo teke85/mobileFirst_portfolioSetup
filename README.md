@@ -12,7 +12,7 @@ Desktop Version of Portfolio Project
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com](https://teke85.github.io/mobileFirst_portfolioSetup/))
+[Live Demo Link](https://teke85.github.io/mobileFirst_portfolioSetup/)
 
 
 ## Built With
