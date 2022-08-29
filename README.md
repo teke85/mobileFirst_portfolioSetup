@@ -60,12 +60,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@muttau](https://twitter.com/muttau)
 - LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
 
-👤 **Author 2**
-
-- GitHub: [@lorna](https://github.com/Lornakaboro)
-- LinkedIn: [lorna Kaboro](https://www.linkedin.com/in/lorna-kaboro-23620b242/)
-- Twitter: [lorna Kaboro](https://twitter.com/KaboroLorna)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
