@@ -542,15 +542,12 @@ h2 {
   left: 0;
 }
 
-.overlay-nav-item {
-  list-style: none;
-}
-
 #desktop-menu {
   display: none;
 }
 
 .overlay-nav-item {
+  list-style: none;
   margin-bottom: 42px;
   font-size: 32px;
   font-weight: 600;
