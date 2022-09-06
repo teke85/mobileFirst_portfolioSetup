@@ -154,7 +154,6 @@ h2 {
   flex-direction: column;
   gap: 10px;
   justify-content: center;
-  margin: 0 auto;
   padding: 0 24px;
 }
 
@@ -509,7 +508,7 @@ h2 {
   display: none;
 }
 
-.hide {
+.hide-js {
   display: none;
 }
 
@@ -549,6 +548,15 @@ h2 {
 
 #desktop-menu {
   display: none;
+}
+
+.nav-menu li {
+  margin-bottom: 42px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  line-height: 44px;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -746,15 +754,6 @@ h2 {
   .btn-submit:hover {
     background-color: #6070ff;
     color: #fff;
-  }
-
-  .nav-menu li {
-    margin-bottom: 42px;
-    font-size: 32px;
-    font-weight: 600;
-    font-family: var(--font-family);
-    line-height: 44px;
-    color: white;
   }
 
   /* Languages section */

@@ -1,5 +1,6 @@
-const overlay = document.querySelector(".mobile-overlay");
+const overlay = document.querySelector('.mobile-overlay');
+
 function mytoggleMenu() {
-  overlay.classList.toggle("hide");
+  overlay.classList.toggle('hide-js');
 }
 mytoggleMenu();
