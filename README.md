@@ -2,7 +2,7 @@
 
 ## My Mobile Menu (JavaScript Version) Project
 
-> **Portfolio - mobile menu Project!**
+> **Portfolio - Mobile Menu Project!**
 
 ## Built With
 
@@ -28,7 +28,6 @@ Below is a screenshot of the complete project.
 ![Portfolio (1)](https://user-images.githubusercontent.com/29442846/181095016-66b04ea4-2baf-4abc-9b55-c4393f6a7ba6.png)
 
 ## Prerequisites
-
 
 To get a local copy up and running follow these simple example steps.
 
