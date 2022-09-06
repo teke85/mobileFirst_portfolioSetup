@@ -9,25 +9,48 @@
   </head>
 
   <body>
-    <header class="flex-container">
-      <div class="logo-container">
-        <a class="logo" href="">My Logo</a>
-      </div>
-      <nav>
-        <ul class="navbar">
-          <li class="nav-link-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-
-          <li class="nav-link-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-link-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    <header>
+      <div class="logo-container"><a class="logo" href="#">My Logo</a></div>
+      <nav class="navbar">
+        <img
+          class="menu-icon"
+          onclick="mytoggleMenu()"
+          src="images/icons/Union.svg"
+          alt=""
+        />
+        <div id="overlay" class="mobile-overlay">
+          <img
+            class="menu-icon"
+            onclick="mytoggleMenu()"
+            src="images/icons/Cancel.svg"
+            alt=""
+          />
+          <ul id="main-menu" class="nav-menu flex">
+            <li id="nav-item" class="overlay-nav-item">
+              <a class="nav-link" onclick="mytoggleMenu()" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="overlay-nav-item">
+              <a class="nav-link" onclick="mytoggleMenu()" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="overlay-nav-item">
+              <a class="nav-link" onclick="mytoggleMenu()" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="desktop-menu">
+          <ul class="flex list">
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>contact</li>
+          </ul>
+        </div>
       </nav>
-      <ion-icon class="menu" name="menu-sharp"></ion-icon>
     </header>
 
     <section class="hero">
@@ -426,7 +449,7 @@
         </form>
       </div>
     </section>
-
+    <script src="script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
