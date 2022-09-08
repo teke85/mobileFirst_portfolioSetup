@@ -198,7 +198,8 @@ h2 {
 
 .btn-container-flex {
   display: flex;
-  margin-top: 25px;
+  margin-left: -10px;
+  row-gap: 5px;
 }
 
 .btn {
@@ -215,6 +216,7 @@ h2 {
   color: #b7bcff;
   padding: 4px 12px 4px 12px;
   transition: 0.2s;
+  margin-bottom: 20px;
 }
 
 .newBtn {
@@ -243,6 +245,7 @@ h2 {
   color: #b7bcff;
   padding: 4px 12px;
   transition: 0.2s;
+  margin-bottom: 20px;
 }
 
 .btn-lg {
@@ -254,6 +257,7 @@ h2 {
   border: none;
   color: #b7bcff;
   transition: 0.2s;
+  margin-bottom: 20px;
 }
 
 .btn-container {
