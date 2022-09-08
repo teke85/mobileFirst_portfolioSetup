@@ -109,7 +109,7 @@ const showInHtml = projects
           <button type="button" id="${index}" class="see-btn">See Project</button>
         </div>
       </div>
-     </div>`
+     </div>`,
   )
   .join('');
 myContent.innerHTML = showInHtml;
@@ -177,10 +177,8 @@ const popUpDetails = projects.map(
     </div>
   </div>
 </div>
-</section>`
+</section>`,
 );
-
-console.log(projects[0].skills[3]);
 /* Pop Up Menu */
 const popup = document.getElementById('popup');
 
