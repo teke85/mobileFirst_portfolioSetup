@@ -112,7 +112,7 @@ const showInHtml = projects
       </div>
      </div>`,
   )
-  .('');
+  .join('');
 myContent.innerHTML = showInHtml;
 /* View Pop Up */
 const popUpDetails = projects.map(
