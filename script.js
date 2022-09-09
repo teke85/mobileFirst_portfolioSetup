@@ -1,8 +1,8 @@
-const overlay = document.querySelector('.mobile-overlay');
+const overlay = document.querySelector('.mobile-overlay')
 function mytoggleMenu() {
-  overlay.classList.toggle('hide');
+  overlay.classList.toggle('hide')
 }
-mytoggleMenu();
+mytoggleMenu()
 const projects = [
   {
     id: 1,
@@ -72,8 +72,8 @@ const projects = [
     liveLink: 'https://www.uber.com/',
     sourceLink: 'https://www.uber.com/',
   },
-];
-const myContent = document.querySelector('.card-container');
+]
+const myContent = document.querySelector('.card-container')
 const showInHtml = projects
   .map(
     (project, index) => `<div class="card-layout">
@@ -109,10 +109,10 @@ const showInHtml = projects
           <button type="button" id="${index}" class="see-btn">See Project</button>
         </div>
       </div>
-     </div>`,
+     </div>`
   )
-  .join('');
-myContent.innerHTML = showInHtml;
+  .join('')
+myContent.innerHTML = showInHtml
 /* View Pop Up */
 const popUpDetails = projects.map(
   (project) => `<section class="popup">
@@ -177,69 +177,72 @@ const popUpDetails = projects.map(
     </div>
   </div>
 </div>
-</section>`,
-);
+</section>`
+)
 /* Pop Up Menu */
-const popup = document.getElementById('popup');
+const popup = document.getElementById('popup')
 
 function f1() {
-  const x = Number(this.id);
-  popup.innerHTML = popUpDetails[x];
-  popup.style.display = 'block';
+  const x = Number(this.id)
+  popup.innerHTML = popUpDetails[x]
+  popup.style.display = 'block'
   document.getElementById('cl').onclick = function cl() {
-    popup.innerHTML = '';
-    popup.style.display = 'none';
-  };
+    popup.innerHTML = ''
+    popup.style.display = 'none'
+  }
 }
 
-document.getElementById('0').onclick = f1;
-document.getElementById('1').onclick = f1;
-document.getElementById('2').onclick = f1;
-document.getElementById('3').onclick = f1;
+document.getElementById('0').onclick = f1
+document.getElementById('1').onclick = f1
+document.getElementById('2').onclick = f1
+document.getElementById('3').onclick = f1
 
-const span = document.getElementsByClassName('close')[0];
+const span = document.getElementsByClassName('close')[0]
 // When the user clicks on <span> (x), close the modal
 span.onclick = () => {
-  popup.style.display = 'none';
-};
+  popup.style.display = 'none'
+}
 
 window.onclick = (event) => {
   if (event.target === popup) {
-    popup.style.display = 'none';
+    popup.style.display = 'none'
   }
-};
+}
 
 // Form Validation
-const form = document.getElementById('form');
-const emailError = document.querySelector('span.error');
+const form = document.getElementById('form')
+const emailError = document.querySelector('span.error')
 
 const isEmailValid = (email) => {
-  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
-  return regex.test(email.value);
-};
+  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/
+  return regex.test(email.value)
+}
 
 const checkEmail = (email) => {
-  let valid = true;
+  // console.log(isEmailValid(email));
+  let valid = true
   if (!isEmailValid(email)) {
-    valid = false;
+    valid = false
   }
-  return valid;
-};
+  return valid
+}
 
 form.addEventListener('submit', (event) => {
   // prevent the form from submitting
-  event.preventDefault();
+  event.preventDefault()
 
-  const { email } = form.elements;
+  const { email } = form.elements
+
   if (!checkEmail(email)) {
     email.setCustomValidity(
-      'Please enter a valid email address and in lowercase letters.',
-    );
-    emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
+      'Please enter a valid email address and in lowercase letters.'
+    )
+    emailError.textContent =
+      'Please enter a valid email address and in lowercase letters.'
   } else {
-    email.setCustomValidity('');
-    emailError.textContent = ''; // Reset the content of the message
-    emailError.className = 'error'; // Reset the visual state of the message
-    form.submit();
+    email.setCustomValidity('')
+    emailError.textContent = '' // Reset the content of the message
+    emailError.className = 'error' // Reset the visual state of the message
+    form.submit()
   }
-});
+})
