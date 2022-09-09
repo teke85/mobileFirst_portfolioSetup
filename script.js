@@ -226,12 +226,16 @@ const checkEmail = (email) => {
   return valid;
 };
 
-form.addEventListener('submit', (event) => { event.preventDefault();
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
   const { email } = form.elements;
-  if (!checkEmail(email)) {   email.setCustomValidity(     'Please enter a valid email address and in lowercase letters.',   );  
-     emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
-   } else {   
-     email.setCustomValidity('');  
-     emailError.textContent = '';   
-     emailError.className = 'error';   
-     form.submit(); }});
+  if (!checkEmail(email)) {
+    email.setCustomValidity('Please enter a valid email address and in lowercase letters.');
+    emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
+  } else {
+    email.setCustomValidity('');
+    emailError.textContent = '';
+    emailError.className = 'error';
+    form.submit();
+  }
+});
