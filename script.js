@@ -210,3 +210,18 @@ window.onclick = (event) => {
 };
 
 // Form Validation
+const form = document.getElementById('form');
+const emailError = document.querySelector('span.error');
+
+const isEmailValid = (email) => {
+  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+  return regex.test(email.value);
+};
+
+const checkEmail = (email) => {
+  let valid = true;
+  if (!isEmailValid(email)) {
+    valid = false;
+  }
+  return valid;
+};
