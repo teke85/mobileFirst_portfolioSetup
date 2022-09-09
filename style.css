@@ -430,7 +430,10 @@ h2 {
 }
 
 .error {
-  color: #fff;
+  color: red;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .form_input {
@@ -465,6 +468,7 @@ h2 {
   font-size: 20px;
   min-width: 300px;
   width: 80%;
+  text-align: center;
 }
 
 .btn_form {
